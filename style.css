@@ -1,0 +1,470 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: hsl(201, 30%, 21%);
+    background: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+.qadriddin1 {
+    width: 100%;
+    min-height: 90px;
+    padding: 15px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    box-shadow: 0 2px 10px hsl(0, 0%, 87%);
+}
+.qadriddin2 h2 {
+    color: hsl(151, 64%, 37%);
+    font-size: 25px;
+}
+.qadriddin2 span,
+.qadriddin23 span {
+    color: hsl(191, 80%, 41%);
+}
+.qadriddin2 p {
+    font-size: 11px;
+}
+.qadriddin3 {
+    display: flex;
+    gap: 22px;
+    font-size: 13px;
+}
+.qadriddin3 a:hover {
+    color: hsl(153, 68%, 39%);
+}
+.qadriddin4 {
+    text-align: center;
+}
+.qadriddin4 p {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.qadriddin4 button,
+.qadriddin7 button,
+.qadriddin8 button {
+    background:white;
+    color:black;
+    padding: 9px 18px;
+    border-radius: 20px;
+}
+.qadriddin5 {
+    width: 86%;
+    margin: 40px auto;
+}
+
+.qadriddin5 h2,
+.qadriddin9 h2,
+.qadriddin12 h2,
+.qadriddin17 h2 {
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.qadriddin6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.qadriddin7,
+.qadriddin8 {
+    min-height: 210px;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.qadriddin7 {
+    background: hsl(153, 65%, 40%);
+}
+
+.qadriddin8 {
+    background: hsl(187, 73%, 47%);
+}
+
+.qadriddin7 h3,
+.qadriddin8 h3 {
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.qadriddin7 p,
+.qadriddin8 p {
+    font-size: 13px;
+    max-width: 220px;
+    margin-bottom: 18px;
+}
+
+.qadriddin7 img,
+.qadriddin8 img {
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.qadriddin9 {
+    width: 86%;
+    margin: 55px auto;
+}
+
+.qadriddin10 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.qadriddin11 {
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 18px hsl(0, 0%, 87%);
+    min-height: 185px;
+}
+.qadriddin24 {
+    width: 50px;
+    height: 50px;
+    background: hsl(153, 68%, 39%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.qadriddin24 img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.qadriddin11 h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+.qadriddin11 p {
+    color: hsl(0, 0%, 47%);
+    font-size: 14px;
+    line-height: 1.6;
+}
+.qadriddin12 {
+    width: 86%;
+    margin: 55px auto;
+}
+.qadriddin13 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+.qadriddin14 {
+    padding: 25px;
+    border: 1px solid hsl(0, 0%, 90%);
+    min-height: 220px;
+}
+.qadriddin25 {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    display: block;
+    margin-bottom: 15px;
+}
+.qadriddin14 h3 {
+    font-size: 17px;
+    margin: 12px 0;
+}
+.qadriddin14 p {
+    font-size: 14px;
+    color: hsl(0, 0%, 47%);
+    margin-bottom: 18px;
+}
+.qadriddin14 b {
+    color: hsl(153, 68%, 39%);
+    font-size: 14px;
+}
+.qadriddin15 {
+    background: #252525;
+    color: white;
+    min-height: 320px;
+    padding: 35px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qadriddin16 {
+    width: 65%;
+}
+.qadriddin16 h2 {
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.qadriddin16 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+.qadriddin16 li::marker {
+    color: hsl(153, 68%, 39%);
+}
+.qadriddin15  img {
+    width: 240px;
+    height: 280px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+}
+.qadriddin17 {
+    width: 86%;
+    margin: 55px auto;
+}
+.qadriddin18 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.qadriddin18 img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border: 5px solid hsl(0, 0%, 93%);
+    box-shadow: 0 5px 12px hsl(0, 0%, 80%);
+}
+.qadriddin19 {
+    width: 86%;
+    margin: 60px auto;
+}
+
+.qadriddin20 {
+    min-height: 230px;
+    padding: 30px 40px;
+    background: hsl(0, 0%, 15%);
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.qadriddin20 h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.qadriddin20 p {
+    color: hsl(0, 0%, 80%);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.qadriddin21 {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.qadriddin21 input {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.qadriddin21 button {
+    background: hsl(153, 68%, 39%);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 20px;
+}
+.qadriddin20  img {
+    width: 190px;
+    height: 210px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+}
+.qadriddin22 {
+    background: hsl(151, 64%, 37%);
+    color: white;
+    padding: 35px 7%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.qadriddin22 h4 {
+    margin-bottom: 15px;
+}
+
+.qadriddin22 a {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.qadriddin23 h2 {
+    color: white;
+    margin-bottom: 8px;
+}
+@media (max-width: 600px) {
+
+    .qadriddin1 {
+        padding: 15px 5%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .qadriddin3 {
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .qadriddin4 {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .qadriddin4 p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .qadriddin5,
+    .qadriddin9,
+    .qadriddin12,
+    .qadriddin17,
+    .qadriddin19 {
+        width: 90%;
+        margin: 35px auto;
+    }
+
+    .qadriddin6 {
+        grid-template-columns: 1fr;
+    }
+
+    .qadriddin7,
+    .qadriddin8 {
+        min-height: 170px;
+        padding: 15px;
+    }
+
+    .qadriddin7 h3,
+    .qadriddin8 h3 {
+        font-size: 15px;
+    }
+
+    .qadriddin7 p,
+    .qadriddin8 p {
+        font-size: 11px;
+    }
+
+    .qadriddin7 img,
+    .qadriddin8 img {
+        height: 110px;
+    }
+
+    .qadriddin10 {
+        grid-template-columns: 1fr;
+    }
+
+    .qadriddin11 {
+        padding: 20px;
+    }
+
+    .qadriddin13 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .qadriddin14 {
+        padding: 13px;
+        min-height: 180px;
+    }
+
+    .qadriddin14 h3 {
+        font-size: 13px;
+    }
+
+    .qadriddin14 p {
+        font-size: 11px;
+    }
+
+    .qadriddin15 {
+        padding: 30px 6%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .qadriddin16 {
+        width: 100%;
+    }
+
+    .qadriddin16 ul {
+        grid-template-columns: 1fr;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .qadriddin15 > img {
+        width: 200px;
+        height: 220px;
+        margin-top: 20px;
+    }
+
+    .qadriddin18 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .qadriddin18 img {
+        height: 130px;
+    }
+
+    .qadriddin20 {
+        padding: 25px 18px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .qadriddin20 h2 {
+        font-size: 19px;
+    }
+
+    .qadriddin21 {
+        flex-direction: column;
+    }
+
+    .qadriddin21 input,
+    .qadriddin21 button {
+        width: 100%;
+    }
+
+    .qadriddin20 > img {
+        margin-top: 20px;
+        width: 160px;
+        height: 170px;
+    }
+
+    .qadriddin22 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 30px 6%;
+        gap: 25px;
+    }
+}
+
